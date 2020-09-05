@@ -1,0 +1,72 @@
+:root {
+  font-size: 60%;
+}
+
+#page-mymacros {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(64, 78, 97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-mymacros #container {
+  margin: auto;
+  padding: 1.4rem;
+  text-align: center;
+}
+
+#page-mymacros #container .box-input {
+  margin: 0.5rem;
+  padding: 2.8rem;
+  background-color: rgb(176, 203, 221);
+  border-radius: 1.3rem;
+  text-align: center;
+}
+
+#txtMeta,
+#txtProtein,
+#txtCarbo,
+#txtFat {
+  font: 200 2.3rem Poppins;
+  height: 5.6rem;
+  margin: 1.0rem;
+  border-radius: 0.8rem;
+  background: rgb(223, 222, 222);
+  border: 0.2rem solid rgb(42, 87, 124);
+  outline: 0;
+  padding: 0 1.6rem;
+  text-align: center;
+}
+
+#qtdMeta,
+#qtdProtein,
+#qtdCarbo,
+#qtdFat,
+#totCal {
+  margin-top: 0.2rem;
+  font: bold 1.4rem Poppins;
+  margin-bottom: 3px;
+  color: #092a49;
+}
+
+#page-mymacros #container p {
+  font: bold 2.4rem Archivo;
+  margin-bottom: 0.5rem;
+  color: #092a49;
+}
+
+#page-mymacros #container h1{
+  font: 700 2.1rem Poppins;
+  margin-top: 2.3rem;
+  color: #ffffff;
+}
+#page-mymacros #container #btn1 {
+  font: 500 2.5rem Archivo;
+  margin: 2.5rem;
+  padding: 2.4rem 2.2rem;
+  color: #ffffff;
+  background: #092a49;
+  border-radius: 0.8rem;
+}

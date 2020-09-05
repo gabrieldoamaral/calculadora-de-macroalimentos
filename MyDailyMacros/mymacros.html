@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Macros | Calculadora de Macroalimentos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+  <script src="script.js"></script>
+</head>
+
+<body id="page-mymacros">
+    <div id="container">
+      <h1>My Macros</h1>
+
+      <div class="box-input">
+        <p>Meta de Calorias</p>
+        <input id="txtMeta" type="number" name="txtMeta"> 
+        <div id="qtdMeta">Resultado</div>
+     
+        <p>Proteínas</p>
+        <input id="txtProtein" type="number" name="txtProtein"> 
+        <div id="qtdProtein">Total Proteínas</div>
+      
+        <p>Carboidratos</p>
+        <input id="txtCarbo" type="number" name="txtCarbo">
+        <div id="qtdCarbo">Total Carbos</div>
+      
+        <p>Gorduras</p>
+        <input id="txtFat" type="number" name="txtFat">
+        <div id="qtdFat">Total Gorduras</div>
+      
+        <p>Calorias</p>
+        <div id="totCal">Total Calorias</div>
+      </div>
+
+      <input id="btn1" type="button" value="Calcular" onClick="calcMacros()">
+    </div>
+</body>
+
+</html>
